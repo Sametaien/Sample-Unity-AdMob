@@ -96,7 +96,7 @@ public class Ads : MonoBehaviour
     }
     private void failedToLoad(object sender, AdFailedToLoadEventArgs e)
     {
-        Debug.LogError("Reklam yüklenmesinde sorun oluþtu.");
+        Debug.LogError("There was a problem loading ads.");
         //RequestBannerBot();
         //RequestBannerTop();
         RequestInter(); // If we do not create a request again after the ad is closed, another ad will not occur, so we create a request again here.
